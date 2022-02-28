@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\Enums\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Services\GameManager\" />
+    <Folder Include="Services\DataAccess\" />
+  </ItemGroup>
+
+</Project>

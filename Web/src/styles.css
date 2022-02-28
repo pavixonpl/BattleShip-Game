@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.boardContainer {
+  display: grid;
+  max-width: 30rem;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  margin: 30px auto;
+}
+
+.cell {
+  padding: 1rem;
+  border: 1px white solid;
+}
+
+.keyWrap {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 120%;
+}
+
+.water {
+  color: DarkTurquoise;
+}
+.ship {
+  color: black;
+}
+.miss {
+  color: gray;
+}
+.hit {
+  color: red;
+}
+.hitAndSunk {
+  color: purple;
+}
