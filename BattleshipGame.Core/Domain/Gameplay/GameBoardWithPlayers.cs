@@ -5,7 +5,7 @@ namespace BattleshipGame.Core.Domain.Gameplay;
 
 public class GameBoardWithPlayers
 {
-
+    //Idea: Instead of GameBoardWithPlayers it could be object of property of GameBoardWithPlayer in GameBoardWithPlayer OppositePlayer
     private GameBoardWithPlayers(GameBoardPattern boardPattern)
     {
         BoardPattern = boardPattern;
